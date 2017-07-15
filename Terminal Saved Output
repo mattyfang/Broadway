@@ -1,0 +1,279 @@
+Last login: Wed Jul 12 19:11:06 on ttys000
+Matts-MBP:~ mattfang$ ls
+Applications	Documents	Library		Music		Public
+Desktop		Downloads	Movies		Pictures
+Matts-MBP:~ mattfang$ cd Documents
+Matts-MBP:Documents mattfang$ ls
+Adobe
+Alissa's SF Report (7.4.17 & 7.5.17).pdf
+Atom Projects
+Clothing Company Idea .pptx
+Loyola High
+MEMES
+Resumés
+Shelter Seattle Mastered.mp3
+UCLA 
+Week 2 Essay Prompts.docx
+Writings
+Zoom
+addendum .docx
+git_practice
+mattyfang.github.io
+test
+~$d-College Crisis Letter to my Mom and Dad .docx
+~$me zesty metaphors .docx
+~$sumé (Internship May 2017 Update).docxx
+~$sumé (Job May 2017 Update).docxx
+~$sumé Revisions ft. Justin .docxx
+~$y 24 :: Monday :: July 10 :: 6-42pm.docx
+Matts-MBP:Documents mattfang$ cd Adobe
+Matts-MBP:Adobe mattfang$ touch exursion
+Matts-MBP:Adobe mattfang$ ls
+Adobe Media Encoder	Premiere Pro		exursion
+Matts-MBP:Adobe mattfang$ clear
+
+Matts-MBP:Adobe mattfang$ ls
+Adobe Media Encoder	Premiere Pro
+Matts-MBP:Adobe mattfang$ cd .. / ..
+Matts-MBP:Documents mattfang$ ls
+Adobe
+Alissa's SF Report (7.4.17 & 7.5.17).pdf
+Atom Projects
+Clothing Company Idea .pptx
+Loyola High
+MEMES
+Resumés
+Shelter Seattle Mastered.mp3
+UCLA 
+Week 2 Essay Prompts.docx
+Writings
+Zoom
+addendum .docx
+git_practice
+mattyfang.github.io
+test
+~$d-College Crisis Letter to my Mom and Dad .docx
+~$me zesty metaphors .docx
+~$sumé (Internship May 2017 Update).docxx
+~$sumé (Job May 2017 Update).docxx
+~$sumé Revisions ft. Justin .docxx
+~$y 24 :: Monday :: July 10 :: 6-42pm.docx
+Matts-MBP:Documents mattfang$ cd Atom Projects
+-bash: cd: Atom: No such file or directory
+Matts-MBP:Documents mattfang$ ls
+Adobe
+Alissa's SF Report (7.4.17 & 7.5.17).pdf
+Atom Projects
+Clothing Company Idea .pptx
+Loyola High
+MEMES
+Resumés
+Shelter Seattle Mastered.mp3
+UCLA 
+Week 2 Essay Prompts.docx
+Writings
+Zoom
+addendum .docx
+git_practice
+mattyfang.github.io
+test
+~$d-College Crisis Letter to my Mom and Dad .docx
+~$me zesty metaphors .docx
+~$sumé (Internship May 2017 Update).docxx
+~$sumé (Job May 2017 Update).docxx
+~$sumé Revisions ft. Justin .docxx
+~$y 24 :: Monday :: July 10 :: 6-42pm.docx
+Matts-MBP:Documents mattfang$ cd Atom Projects
+-bash: cd: Atom: No such file or directory
+Matts-MBP:Documents mattfang$ cd Loyola High
+-bash: cd: Loyola: No such file or directory
+Matts-MBP:Documents mattfang$ cd Loyola-High
+-bash: cd: Loyola-High: No such file or directory
+Matts-MBP:Documents mattfang$ cd git_practice
+Matts-MBP:git_practice mattfang$ cd..
+-bash: cd..: command not found
+Matts-MBP:git_practice mattfang$ cd ..
+Matts-MBP:Documents mattfang$ cd "Atom Projects"
+Matts-MBP:Atom Projects mattfang$ ls
+BeachParadise (CSS Project 1)
+Brown Bear
+Dasmoto's Arts and Crafts (CSS Main Project)
+HelloWorld
+Menu Week 1
+Paris
+Matts-MBP:Atom Projects mattfang$ mkdir excursion
+Matts-MBP:Atom Projects mattfang$ ls
+BeachParadise (CSS Project 1)
+Brown Bear
+Dasmoto's Arts and Crafts (CSS Main Project)
+HelloWorld
+Menu Week 1
+Paris
+excursion
+Matts-MBP:Atom Projects mattfang$ cd excursion
+Matts-MBP:excursion mattfang$ ls
+Matts-MBP:excursion mattfang$ touch index.html
+Matts-MBP:excursion mattfang$ ls
+index.html
+Matts-MBP:excursion mattfang$ mkdir resources
+Matts-MBP:excursion mattfang$ ls
+index.html	resources
+Matts-MBP:excursion mattfang$ cd resources
+Matts-MBP:resources mattfang$ ls
+Matts-MBP:resources mattfang$ mkdir css
+Matts-MBP:resources mattfang$ cd css
+Matts-MBP:css mattfang$ ls
+Matts-MBP:css mattfang$ touch style.css
+Matts-MBP:css mattfang$ ls
+style.css
+Matts-MBP:css mattfang$ cd ../..
+Matts-MBP:excursion mattfang$ git init
+Initialized empty Git repository in /Users/mattfang/Documents/Atom Projects/excursion/.git/
+Matts-MBP:excursion mattfang$ clear
+
+Matts-MBP:excursion mattfang$ ls
+index.html	resources
+Matts-MBP:excursion mattfang$ add index.html resources
+-bash: add: command not found
+Matts-MBP:excursion mattfang$ add .
+-bash: add: command not found
+Matts-MBP:excursion mattfang$ git add .
+Matts-MBP:excursion mattfang$ git commit -m "Initial commit"
+[master (root-commit) 19f59d3] Initial commit
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+ create mode 100644 resources/css/style.css
+Matts-MBP:excursion mattfang$ git remote add origin https://github.com/mattyfang/excursion.git
+Matts-MBP:excursion mattfang$ git push -u origin master
+Counting objects: 5, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (5/5), 337 bytes | 0 bytes/s, done.
+Total 5 (delta 0), reused 0 (delta 0)
+To https://github.com/mattyfang/excursion.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+Matts-MBP:excursion mattfang$ add index.html
+-bash: add: command not found
+Matts-MBP:excursion mattfang$ ls
+index.html	resources
+Matts-MBP:excursion mattfang$ add .
+-bash: add: command not found
+Matts-MBP:excursion mattfang$ git add index.html
+Matts-MBP:excursion mattfang$ ls
+index.html	resources
+Matts-MBP:excursion mattfang$ add .
+-bash: add: command not found
+Matts-MBP:excursion mattfang$ git add .
+Matts-MBP:excursion mattfang$ git commit -m "almost done"
+[master 1f599e4] almost done
+ 5 files changed, 91 insertions(+)
+ create mode 100644 resources/.DS_Store
+ create mode 100644 resources/css/excursion.css
+ delete mode 100644 resources/css/style.css
+ create mode 100644 resources/videos/excursion.mp4
+Matts-MBP:excursion mattfang$ git remote add origin https://github.com/mattyfang/excursion.git
+fatal: remote origin already exists.
+Matts-MBP:excursion mattfang$ git push origin master
+Counting objects: 9, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (9/9), 13.62 MiB | 671.00 KiB/s, done.
+Total 9 (delta 0), reused 0 (delta 0)
+To https://github.com/mattyfang/excursion.git
+   19f59d3..1f599e4  master -> master
+Matts-MBP:excursion mattfang$ git push origin master
+Everything up-to-date
+Matts-MBP:excursion mattfang$ git push origin master
+Everything up-to-date
+Matts-MBP:excursion mattfang$ clear
+
+Matts-MBP:excursion mattfang$ cd .. / ..
+Matts-MBP:Atom Projects mattfang$ ls
+BeachParadise (CSS Project 1)
+Brown Bear (HTML project 1)
+Dasmoto's Arts and Crafts (CSS Main Project)
+HelloWorld
+Menu (HTML Main Project)
+Paris (HTML project 2)
+excursion (command:git project 1)
+Matts-MBP:Atom Projects mattfang$ mkdir Broadway
+Matts-MBP:Atom Projects mattfang$ cd Broadway
+Matts-MBP:Broadway mattfang$ touch index.html
+Matts-MBP:Broadway mattfang$ touch resources
+Matts-MBP:Broadway mattfang$ ls
+index.html	resources
+Matts-MBP:Broadway mattfang$ cd resources
+-bash: cd: resources: Not a directory
+Matts-MBP:Broadway mattfang$ mkdir resources
+Matts-MBP:Broadway mattfang$ ls
+index.html	resources
+Matts-MBP:Broadway mattfang$ cd resources
+Matts-MBP:resources mattfang$ mkdir css
+Matts-MBP:resources mattfang$ ls
+css
+Matts-MBP:resources mattfang$ cd css
+Matts-MBP:css mattfang$ ls
+Matts-MBP:css mattfang$ touch broadway.css
+Matts-MBP:css mattfang$ ls
+broadway.css
+Matts-MBP:css mattfang$ cd Broadway
+-bash: cd: Broadway: No such file or directory
+Matts-MBP:css mattfang$ cd ../..
+Matts-MBP:Broadway mattfang$ git init
+Initialized empty Git repository in /Users/mattfang/Documents/Atom Projects/Broadway/.git/
+Matts-MBP:Broadway mattfang$ ls
+index.html	resources
+Matts-MBP:Broadway mattfang$ add .
+-bash: add: command not found
+Matts-MBP:Broadway mattfang$ git add .
+Matts-MBP:Broadway mattfang$ git commit -m "First commit"
+[master (root-commit) 4a43aa1] First commit
+ 2 files changed, 44 insertions(+)
+ create mode 100644 index.html
+ create mode 100644 resources/css/broadway.css
+Matts-MBP:Broadway mattfang$ git remote add origin https://github.com/mattyfang/Broadway.git
+Matts-MBP:Broadway mattfang$ git push -u origin master
+Counting objects: 6, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (6/6), 625 bytes | 0 bytes/s, done.
+Total 6 (delta 0), reused 0 (delta 0)
+To https://github.com/mattyfang/Broadway.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+Matts-MBP:Broadway mattfang$ git commit -m "Second commit"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+	modified:   index.html
+	modified:   resources/css/broadway.css
+
+Untracked files:
+	.DS_Store
+	resources/.DS_Store
+
+no changes added to commit
+Matts-MBP:Broadway mattfang$ git add .
+Matts-MBP:Broadway mattfang$ git commit -m "Second Commit"
+[master 3eb6ad1] Second Commit
+ 4 files changed, 3 insertions(+), 2 deletions(-)
+ create mode 100644 .DS_Store
+ create mode 100644 resources/.DS_Store
+Matts-MBP:Broadway mattfang$ git push origin master
+Counting objects: 8, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (8/8), 1.81 KiB | 0 bytes/s, done.
+Total 8 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/mattyfang/Broadway.git
+   4a43aa1..3eb6ad1  master -> master
+Matts-MBP:Broadway mattfang$ git push 
+Everything up-to-date
+Matts-MBP:Broadway mattfang$ git push
+Everything up-to-date
+Matts-MBP:Broadway mattfang$ git push origin master
+Everything up-to-date
+Matts-MBP:Broadway mattfang$ git add .
+Matts-MBP:Broadway mattfang$ 
